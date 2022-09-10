@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.index{
+    min-width: 50px;
+    margin-bottom: 0px;
+}
+body {
+    background-image: url(./media/fondo-difuminado.pagina.jpg);
+    background-attachment: fixed;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    min-width: 50px;
+    margin-bottom: 0px;
+    }
+
+.grid{
+    min-width: 50px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.7fr);
+    gap: 1em;
+    grid-template-rows: minmax(10px,auto);
+}
+
+.grid div{ 
+    background-color: #ffcccc;
+    padding: 1em; 
+    min-width: 50px;
+    margin-bottom: 0px;
+
+}
+
+.grid div :hover{
+    border: 1px solid white;
+    min-width: 50px;
+    margin-bottom: 0px;
+
+}
+
+.menu{
+    grid-column: 1/5;
+    grid-row: 1/1;
+    justify-items: center;
+    min-width: 50px;
+    margin-bottom: 0px;
+
+}
+
+.botonera{
+    font-family: 'Jots',sans-serif;
+    background-color:none;
+    position:static;
+    top: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 50px;
+    margin-bottom: 0px;
+}
+
+.botonera ul{
+      
+    display:flex;
+    justify-items: right;
+    min-width: 50px;
+    margin-bottom: 0px; }
+
+ .botonera ul li{
+     list-style: none;
+     margin-right: 50px;
+     min-width: 50px;
+     margin-bottom: 0px;
+ }
+
+     .botonera ul li a{
+         font-size: large;
+         text-decoration: none;
+         color: #ffffff;
+         min-width: 50px;
+         margin-bottom: 0px;
+          }      
+          .botonera ul li a:hover{
+             color: rgb(236, 68, 118);
+             font-weight: 500px;
+             min-width: 50px;
+             margin-bottom: 0px;
+      }
+
+.caja1{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-items: left;
+    background-image: url(./media/caja-3.png);
+    color: #1a1a1a;
+    min-width: 50px;
+    margin-bottom: 0px;
+    
+}
+
+
+.caja2{
+    background-image: url(./media/caja-2.png);
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-items:left;
+    color: #1a1a1a;
+    min-width: 50px;
+    margin-bottom: 0px;
+}
+
+.caja3{
+    background-image: url(./media/caja-3.png);
+    grid-column: 1/4;
+    grid-row: 4/5;
+    justify-items: left;
+    color: #1a1a1a;
+    min-width: 50px;
+    margin-bottom: 0px;
+}
+
+.barralateral {
+    grid-column: 4/4;
+    grid-row: 2/5;
+    justify-self: center;
+    min-width: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.mifooter{
+    grid-column: 1/5;
+    grid-row: 5/5;
+    justify-content: center;
+    min-width: 50px;
+    margin-bottom: 0px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    float: left;
+    size: 20px;
+    justify-content: space-around;
+}
+
+h2{
+    text-align: center;
+}
+
+nav ul li {
+    min-width: 50px;
+    margin-bottom: 0px;
+}
